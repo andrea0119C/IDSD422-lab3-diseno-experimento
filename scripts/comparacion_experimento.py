@@ -103,3 +103,30 @@ print(f"Intervalo de confianza 95%: [{ic_inf}, {ic_sup}]")
 # prueba p-value
 prueba= stats.ttest_rel(piv["pasillo_principal"], piv["habitual"])
 print(f"p-value: {prueba.pvalue}")
+
+
+print("\n=== INTERPRETACIÓN FINAL ===")
+
+print(
+    "Se analizaron las ventas medias de ambas ubicaciones "
+    "en cada una de las diez tiendas participantes."
+)
+
+print(
+    "Mediante la prueba t pareada se evaluaron las diferencias "
+    "de ventas entre las dos condiciones, tomando como referencia "
+    "los promedios obtenidos por tienda."
+)
+
+print(
+    "Es importante mencionar que los datos fueron simulados, "
+    "por lo que los resultados no permiten confirmar que el cambio "
+    "de ubicación aumente las ventas reales de RetailAndina."
+)
+
+print(
+    "Además, se consideró una promoción simultánea que pudo "
+    "modificar las ventas, por lo que este factor debe tomarse "
+    "en cuenta al analizar los resultados."
+)
+
