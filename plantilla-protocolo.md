@@ -166,10 +166,18 @@ Los programas deben cargar el archivo `plantillas/registro_experimento.csv` y ca
 
 **Resultados obtenidos con la plantilla original:**
 
-| Ubicación | Promedio de ventas |
-|---|---:|
-| Pasillo principal | 1335 USD |
-| Ubicación habitual | 1040 USD |
+
+```text
+ubicacion
+habitual            1040.0
+pasillo_principal   1335.0
+Name: ventas_producto, dtype: float64
+
+ubicacion
+pasillo_principal    2
+habitual             2
+Name: count, dtype: int64
+```
 
 ### ¿Qué grupo muestra mayor venta promedio en la plantilla?
 
